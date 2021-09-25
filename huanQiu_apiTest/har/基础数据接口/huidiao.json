@@ -1,0 +1,56 @@
+{
+    "config": {
+        "name": "testcase description",
+        "variables": {},
+        "verify": false
+    },
+    "teststeps": [
+        {
+            "name": "",
+            "request": {
+                "url": "https://dev1.unihealths.com",
+                "method": "CONNECT",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive",
+                    "host": "dev1.unihealths.com:443"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "",
+            "request": {
+                "url": "https://dev1.unihealths.com",
+                "method": "CONNECT",
+                "headers": {
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive",
+                    "host": "dev1.unihealths.com:443"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                }
+            ]
+        }
+    ]
+}

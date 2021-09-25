@@ -1,0 +1,36 @@
+config:
+    name: testcase description
+    variables: {}
+    verify: false
+teststeps:
+-   name: ''
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Type: application/json
+            User-Agent: PostmanRuntime/7.28.4
+            host: dev1.unihealths.com:443
+        method: CONNECT
+        url: https://dev1.unihealths.com
+    validate:
+    -   eq:
+        - status_code
+        - 200
+-   name: ''
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            User-Agent: PostmanRuntime/7.28.4
+            host: dev1.unihealths.com:443
+        method: CONNECT
+        url: https://dev1.unihealths.com
+    validate:
+    -   eq:
+        - status_code
+        - 200

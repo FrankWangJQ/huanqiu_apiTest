@@ -1,0 +1,16 @@
+config:
+    name: 查询患者院内信息并建档
+    variables: {}
+    verify: false
+    base_url: ${ENV(baseUrl_dongHua)}
+#    headers:
+#        Authorization: Basic Og==
+testcases:
+-   name: 患者建档
+    testcase: testcases\externalInterface\patient\patient.yml
+
+-   name: "通过患者ID（身份证号）查询患者在院内系统建立的档案信息"
+    parameters:
+        type: [3]
+        patientId: [130633199001036815]
+    testcase: testcases\externalInterface\patient\getPatient.yml

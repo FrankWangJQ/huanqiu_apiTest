@@ -1,0 +1,10 @@
+config:
+    name: "挂号需先获取排班号源信息"
+    variables: {}
+    base_url: ${ENV(baseUrl_dongHua)}
+    verify: False
+teststeps:
+-   name: "获取某天排班信息接口"
+    request:
+        method: GET
+        url: /schedulePlan/list/date/${getTomorrowDate()}

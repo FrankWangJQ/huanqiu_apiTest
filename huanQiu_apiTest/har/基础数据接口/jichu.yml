@@ -1,0 +1,274 @@
+config:
+    name: testcase description
+    variables: {}
+    verify: false
+teststeps:
+-   name: /hsb/wxfw/organizationUnit/list
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Host: 47.92.67.113
+            Postman-Token: 7e5cfec9-a9a7-4e60-a12b-085d15062553
+            User-Agent: PostmanRuntime/7.28.4
+        method: GET
+        url: http://47.92.67.113/hsb/wxfw/organizationUnit/list
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/wxfw/provider/list
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Host: 47.92.67.113
+            Postman-Token: 52379120-0ca7-4b6f-b025-ff0d54cde1da
+            User-Agent: PostmanRuntime/7.28.4
+        method: GET
+        url: http://47.92.67.113/hsb/wxfw/provider/list
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/cflz/medication/complex/getPharmacyList
+    request:
+        data: ''
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '0'
+            Host: 47.92.67.113
+            Postman-Token: 804f033c-7e96-40a3-b19f-1607224d9f5f
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/cflz/medication/complex/getPharmacyList
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/cflz/medication/complex/getMedicationList
+    request:
+        data: "{\r\n\"sizePerPage\" : 1000,\r\n\"pageIndex\" : 1\r\n}"
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '44'
+            Content-Type: text/plain
+            Host: 47.92.67.113
+            Postman-Token: 14679b9f-f26d-4436-acfd-337c85eb0e8c
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/cflz/medication/complex/getMedicationList
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/cflz/medication/complex/getMedicationUnitList
+    request:
+        data: ''
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '0'
+            Host: 47.92.67.113
+            Postman-Token: b68ad20f-bd35-47ce-83b5-43b25b4c062d
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/cflz/medication/complex/getMedicationUnitList
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/cflz/medication/complex/getMedicationRouteList
+    request:
+        data: ''
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '0'
+            Host: 47.92.67.113
+            Postman-Token: 7765d95c-9d09-4619-b1ab-f1d6317b4c89
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/cflz/medication/complex/getMedicationRouteList
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/cflz/medication/complex/getMedicationListByIdList
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '206'
+            Content-Type: application/json
+            Host: 47.92.67.113
+            Postman-Token: 5e6f7d11-b85a-433e-8dd4-5ea6bca06c52
+            User-Agent: PostmanRuntime/7.28.4
+        json:
+            medicationList:
+            -   medicationId: '1'
+                pharmacyId: '3'
+            -   medicationId: '2'
+                pharmacyId: '3'
+        method: POST
+        url: http://47.92.67.113/hsb/cflz/medication/complex/getMedicationListByIdList
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/cflz/medication/complex/getMedicationStockInfoByIdList
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '206'
+            Content-Type: application/json
+            Host: 47.92.67.113
+            Postman-Token: 12974adf-a0ae-4646-bfc3-e94b217d91f4
+            User-Agent: PostmanRuntime/7.28.4
+        json:
+            medicationList:
+            -   medicationId: '1'
+                pharmacyId: '3'
+            -   medicationId: '2'
+                pharmacyId: '3'
+        method: POST
+        url: http://47.92.67.113/hsb/cflz/medication/complex/getMedicationStockInfoByIdList
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+-   name: /hsb/wxfw/procedure/complex/getProcedureList
+    request:
+        data: "{\r\n    \"procedureTypeId\":4\r\n}"
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '29'
+            Content-Type: text/plain
+            Host: 47.92.67.113
+            Postman-Token: b91e3aea-6c6d-4cb2-83e3-c86f68df3f36
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/wxfw/procedure/complex/getProcedureList
+    validate:
+    -   eq:
+        - status_code
+        - 404
+    -   eq:
+        - headers.Content-Type
+        - text/html
+-   name: /hsb/wxfw/procedure/complex/getProcedureListByIdList
+    request:
+        data: "[\r\n    {\r\n        \"procedureId\":\"1111\",\r\n        \"procedureTypeId\"\
+            :3\r\n    },\r\n    {\r\n        \"procedureId\":\"2222\",\r\n       \
+            \ \"procedureTypeId\":3\r\n    }\r\n]"
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '153'
+            Content-Type: text/plain
+            Host: 47.92.67.113
+            Postman-Token: 1c985892-9b70-45fb-9d05-f8f13cc7c5b7
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/wxfw/procedure/complex/getProcedureListByIdList
+    validate:
+    -   eq:
+        - status_code
+        - 404
+    -   eq:
+        - headers.Content-Type
+        - text/html
+-   name: /hsb/wxfw/diagnosis/complex/getDiagnosisList
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '50'
+            Content-Type: application/json
+            Host: 47.92.67.113
+            Postman-Token: e0838274-4f9a-4f2e-bcb9-7d92202a997e
+            User-Agent: PostmanRuntime/7.28.4
+        json:
+            pageIndex: 1
+            sizePerPage: 1000
+        method: POST
+        url: http://47.92.67.113/hsb/wxfw/diagnosis/complex/getDiagnosisList
+    validate:
+    -   eq:
+        - status_code
+        - 404
+    -   eq:
+        - headers.Content-Type
+        - text/html
+-   name: /hsb/wxfw/procedure/complex/getProcedureUnitList
+    request:
+        data: ''
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Authorization: Basic YWRtaW46bGZpZGJ3ZWU=
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '0'
+            Host: 47.92.67.113
+            Postman-Token: 4bce0425-731a-48f9-aa4b-680911340bec
+            User-Agent: PostmanRuntime/7.28.4
+        method: POST
+        url: http://47.92.67.113/hsb/wxfw/procedure/complex/getProcedureUnitList
+    validate:
+    -   eq:
+        - status_code
+        - 404
+    -   eq:
+        - headers.Content-Type
+        - text/html

@@ -1,0 +1,186 @@
+config:
+    name: testcase description
+    variables: {}
+    verify: false
+    base_url: ${ENV(baseUrl_caiHong)}
+#    headers:
+#        Authorization: Basic Og==
+teststeps:
+-   name: /hsb/wxfw/patient
+    request:
+        headers:
+            Accept: '*/*'
+            Accept-Encoding: gzip, deflate, br
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Content-Length: '584'
+            Content-Type: application/json
+            Host: yun.xychyy.com:555
+            Postman-Token: 559af811-0be9-448a-b017-579bedd6e873
+            User-Agent: PostmanRuntime/7.28.4
+        json:
+            birthDate: '2021-03-16'
+            healthCardId: 'A4E0374BCBEAB40E4D66AB5078B44XXX '
+            isNewBorn: false
+            patientFamilyName: 寮�
+            patientFullName: 寮犲瘜璐�
+            patientGenderTypeId: '4'
+            patientGivenName: 瀵岃吹
+            patientId: '110111188605069875'
+            patientIdTypeId: 3
+            patientMobileNumber: '18811112222'
+            patientResidenceAddress: 鍖椾含甯傝タ鍩庡尯澶嶅叴闂ㄥ澶ц99鍙烽櫌11鍙锋ゼ3鍗曞厓502
+            reservedParentIdentifier: '110111188605069875'
+            reservedParentIdentifierTypeId: 3
+            reservedParentName: 寮犲洓
+        method: POST
+        url: http://yun.xychyy.com:555/hsb/wxfw/patient
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; charset=utf-8
+#-   name: /hsb/wxfw/patient/complex/getHealthCardUsageInfo/date/2021-09-23
+#    request:
+#        headers:
+#            Accept: '*/*'
+#            Accept-Encoding: gzip, deflate, br
+#            Authorization: Basic Og==
+#            Cache-Control: no-cache
+#            Connection: keep-alive
+#            Host: yun.xychyy.com:555
+#            Postman-Token: 8006038c-c4c6-49d3-929b-a140410fe7b2
+#            User-Agent: PostmanRuntime/7.28.4
+#        method: GET
+#        url: http://yun.xychyy.com:555/hsb/wxfw/patient/complex/getHealthCardUsageInfo/date/2021-09-23
+#    validate:
+#    -   eq:
+#        - status_code
+#        - 404
+#    -   eq:
+#        - headers.Content-Type
+#        - text/html
+#-   name: /hsb/wxfw/patient/complex/updatePatientInfo
+#    request:
+#        headers:
+#            Accept: '*/*'
+#            Accept-Encoding: gzip, deflate, br
+#            Authorization: Basic Og==
+#            Cache-Control: no-cache
+#            Connection: keep-alive
+#            Content-Length: '347'
+#            Content-Type: application/json
+#            Host: yun.xychyy.com:555
+#            Postman-Token: 7bc1583a-ede6-437c-ae33-6b67bababddf
+#            User-Agent: PostmanRuntime/7.28.4
+#        json:
+#            patientHisId: '115540698'
+#            patientId: '110111188605069875'
+#            patientIdTypeId: 3
+#            patientMobileNumber: '18811112222'
+#            patientName: 寮犱笁
+#            patientResidenceAddress: 鍖椾含甯�
+#            reservedParentIdentifier: '110111188605069875'
+#            reservedParentIdentifierTypeId: 3
+#            reservedParentName: 寮犲洓
+#        method: POST
+#        url: http://yun.xychyy.com:555/hsb/wxfw/patient/complex/updatePatientInfo
+#    validate:
+#    -   eq:
+#        - status_code
+#        - 405
+#    -   eq:
+#        - headers.Content-Type
+#        - text/html
+#-   name: /hsb/wxfwpatient/complex/getPatientInfo
+#    request:
+#        headers:
+#            Accept: '*/*'
+#            Accept-Encoding: gzip, deflate, br
+#            Cache-Control: no-cache
+#            Connection: keep-alive
+#            Content-Length: '327'
+#            Content-Type: application/json
+#            Host: yun.xychyy.com:555
+#            Postman-Token: 42053f4c-b8e1-4693-940c-2cf69b692399
+#            User-Agent: PostmanRuntime/7.28.4
+#        json:
+#            birthDate: '2021-03-16'
+#            isNewBorn: true
+#            patientId: '110111188605069875'
+#            patientIdTypeId: 3
+#            patientMobileNumber: '18811112222'
+#            patientName: 寮犲瘜璐�
+#            reservedParentIdentifier: '110111188605069875'
+#            reservedParentIdentifierTypeId: 3
+#            reservedParentName: 寮犲洓
+#        method: POST
+#        url: http://yun.xychyy.com:555/hsb/wxfwpatient/complex/getPatientInfo
+#    validate:
+#    -   eq:
+#        - status_code
+#        - 404
+#    -   eq:
+#        - headers.Content-Type
+#        - text/html
+#-   name: /hsb/wxfw/patient/complex/getFamilyMemberList
+#    request:
+#        headers:
+#            Accept: '*/*'
+#            Accept-Encoding: gzip, deflate, br
+#            Authorization: Basic Og==
+#            Cache-Control: no-cache
+#            Connection: keep-alive
+#            Content-Length: '100'
+#            Content-Type: application/json
+#            Host: yun.xychyy.com:555
+#            Postman-Token: 560df913-fccf-4f44-b7bf-d2d26b34a81e
+#            User-Agent: PostmanRuntime/7.28.4
+#        json:
+#            patientId: '321102199605018111'
+#            patientIdTypeId: 3
+#            patientName: 寮犲皬灞�
+#        method: POST
+#        url: http://yun.xychyy.com:555/hsb/wxfw/patient/complex/getFamilyMemberList
+#    validate:
+#    -   eq:
+#        - status_code
+#        - 200
+#    -   eq:
+#        - headers.Content-Type
+#        - text/html; charset=utf-8
+#-   name: /hsb/wxfw/patient/complex/updateFamilyMember
+#    request:
+#        headers:
+#            Accept: '*/*'
+#            Accept-Encoding: gzip, deflate, br
+#            Authorization: Basic Og==
+#            Cache-Control: no-cache
+#            Connection: keep-alive
+#            Content-Length: '320'
+#            Content-Type: application/json
+#            Host: yun.xychyy.com:555
+#            Postman-Token: 01527f95-c258-49e6-b597-1b04ab450b01
+#            User-Agent: PostmanRuntime/7.28.4
+#        json:
+#            membeIdTypeId: 3
+#            memberAddress: ''
+#            memberId: '2301189199008060811'
+#            memberMobileNumber: '18811112222'
+#            memberName: 寮犲北
+#            memberRelationId: 7
+#            memberRelationName: 鐖朵翰
+#            patientId: '321102199605018111'
+#            patientIdTypeId: 3
+#            patientName: 寮犲皬灞�
+#        method: POST
+#        url: http://yun.xychyy.com:555/hsb/wxfw/patient/complex/updateFamilyMember
+#    validate:
+#    -   eq:
+#        - status_code
+#        - 200
+#    -   eq:
+#        - headers.Content-Type
+#        - text/html; charset=utf-8

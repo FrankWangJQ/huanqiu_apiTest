@@ -1,0 +1,1268 @@
+versions pytest-5.4.3, py-1.10.0, python-3.8.8.final.0
+cwd=G:\pycharm\projects\huanQiu_apiTest
+args=('testcases\\waiBuYiYuanDuiJie\\yuYueGuaHao\\getSchedulePlanList_test.py', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x0000023090A53EE0>
+    pytest_plugin_registered [hook]
+        plugin: <Session huanQiu_apiTest exitstatus=None testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x0000023090A53EE0>
+      pytest_metadata [hook]
+          metadata: {'Python': '3.8.8', 'Platform': 'Windows-10-10.0.19041-SP0', 'Packages': {'pytest': '5.4.3', 'py': '1.10.0', 'pluggy': '0.13.1'}, 'Plugins': {'HttpRunnerReport': '0.1.6', 'html': '2.1.1', 'metadata': '1.11.0'}, 'JAVA_HOME': 'C:\\Program Files\\Java\\jdk1.8.0_144'}
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000002309174C340>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000002309174C280>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x0000023090A53EE0>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000002309175C640>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000002309175C820>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000023090A53EE0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'httprunner_report.HttpRunnerReport' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\httprunner_report\\HttpRunnerReport.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\pytest_html\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\pytest_metadata\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=8 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002309174CA00>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002309174CAF0>> in_=<FDCapture 0 oldfd=6 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='cp936'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000002309174C340>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000002309174C280>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000002309175C640>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000002309175C820>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000002309175CC40>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000002309179A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000023090A53EE0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'httprunner_report.HttpRunnerReport' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\httprunner_report\\HttpRunnerReport.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\pytest_html\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\pytest_metadata\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=8 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002309174CA00>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002309174CAF0>> in_=<FDCapture 0 oldfd=6 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='cp936'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000002309174C340>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000002309174C280>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000002309175C640>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000002309175C820>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000002309175CC40>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000002309179A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000002309179A670>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002309098BF70>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x0000023090A53EE0>
+          startdir: G:\pycharm\projects\huanQiu_apiTest
+      finish pytest_report_header --> [['rootdir: G:\\pycharm\\projects\\huanQiu_apiTest', 'plugins: HttpRunnerReport-0.1.6, html-2.1.1, metadata-1.11.0'], ['using: pytest-5.4.3 pylib-1.10.0', 'setuptools registered plugins:', '  HttpRunnerReport-0.1.6 at G:\\pycharm\\projects\\venv\\lib\\site-packages\\httprunner_report\\HttpRunnerReport.py', '  pytest-html-2.1.1 at G:\\pycharm\\projects\\venv\\lib\\site-packages\\pytest_html\\plugin.py', '  pytest-metadata-1.11.0 at G:\\pycharm\\projects\\venv\\lib\\site-packages\\pytest_metadata\\plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['testcases\\waiBuYiYuanDuiJie\\yuYueGuaHao\\getSchedulePlanList_test.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('G:\\pycharm\\projects\\huanQiu_apiTest\\testcases\\waiBuYiYuanDuiJie\\yuYueGuaHao\\getSchedulePlanList_test.py'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\__init__.py
+                config: <_pytest.config.Config object at 0x0000023090A53EE0>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\__init__.py
+                parent: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\__init__.py
+                  parent: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Package G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao> [hook]
+            finish pytest_collect_file --> [<Package G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao>] [hook]
+            pytest_collect_file [hook]
+                path: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\getSchedulePlanList_test.py
+                parent: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\getSchedulePlanList_test.py
+                  parent: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py> [hook]
+            finish pytest_collect_file --> [<Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>] [hook]
+          matchnodes [<Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+      early skip of rewriting module: yuYueGuaHao [assertion]
+      find_module called for: yuYueGuaHao.getSchedulePlanList_test [assertion]
+      matched test file 'G:\\pycharm\\projects\\huanQiu_apiTest\\testcases\\waiBuYiYuanDuiJie\\yuYueGuaHao\\getSchedulePlanList_test.py' [assertion]
+      found cached rewritten pyc for G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\getSchedulePlanList_test.py [assertion]
+      early skip of rewriting module: httprunner [assertion]
+      early skip of rewriting module: httprunner.ext [assertion]
+      early skip of rewriting module: httprunner.ext.locust [assertion]
+      early skip of rewriting module: loguru [assertion]
+      early skip of rewriting module: loguru._defaults [assertion]
+      early skip of rewriting module: loguru._logger [assertion]
+      early skip of rewriting module: multiprocessing [assertion]
+      early skip of rewriting module: multiprocessing.context [assertion]
+      early skip of rewriting module: multiprocessing.process [assertion]
+      early skip of rewriting module: multiprocessing.reduction [assertion]
+      early skip of rewriting module: loguru._colorama [assertion]
+      early skip of rewriting module: loguru._filters [assertion]
+      early skip of rewriting module: loguru._better_exceptions [assertion]
+      early skip of rewriting module: loguru._colored_string [assertion]
+      early skip of rewriting module: loguru._datetime [assertion]
+      early skip of rewriting module: loguru._file_sink [assertion]
+      early skip of rewriting module: loguru._string_parsers [assertion]
+      early skip of rewriting module: loguru._ctime_functions [assertion]
+      early skip of rewriting module: win32_setctime [assertion]
+      early skip of rewriting module: loguru._get_frame [assertion]
+      early skip of rewriting module: loguru._handler [assertion]
+      early skip of rewriting module: loguru._recattrs [assertion]
+      early skip of rewriting module: loguru._simple_sinks [assertion]
+      early skip of rewriting module: httprunner.parser [assertion]
+      early skip of rewriting module: sentry_sdk [assertion]
+      early skip of rewriting module: sentry_sdk.hub [assertion]
+      early skip of rewriting module: sentry_sdk._compat [assertion]
+      early skip of rewriting module: sentry_sdk._types [assertion]
+      early skip of rewriting module: sentry_sdk.scope [assertion]
+      early skip of rewriting module: sentry_sdk._functools [assertion]
+      early skip of rewriting module: sentry_sdk.utils [assertion]
+      early skip of rewriting module: gevent [assertion]
+      early skip of rewriting module: eventlet [assertion]
+      early skip of rewriting module: sentry_sdk.client [assertion]
+      early skip of rewriting module: sentry_sdk.serializer [assertion]
+      early skip of rewriting module: sentry_sdk.transport [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: urllib3.packages [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname [assertion]
+      early skip of rewriting module: urllib3.packages.six [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.http_client [assertion]
+      early skip of rewriting module: urllib3._version [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib._appengine_environ [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: _brotli [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3.util.ssltransport [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.proxy [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3.request [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib.parse [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: urllib3.util.queue [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: importlib.resources [assertion]
+      early skip of rewriting module: gzip [assertion]
+      early skip of rewriting module: sentry_sdk.worker [assertion]
+      early skip of rewriting module: sentry_sdk.envelope [assertion]
+      early skip of rewriting module: sentry_sdk.sessions [assertion]
+      early skip of rewriting module: sentry_sdk.consts [assertion]
+      early skip of rewriting module: sentry_sdk.integrations [assertion]
+      early skip of rewriting module: sentry_sdk.tracing [assertion]
+      early skip of rewriting module: sentry_sdk.api [assertion]
+      early skip of rewriting module: sentry_sdk.debug [assertion]
+      early skip of rewriting module: httprunner.loader [assertion]
+      early skip of rewriting module: yaml [assertion]
+      early skip of rewriting module: yaml.error [assertion]
+      early skip of rewriting module: yaml.tokens [assertion]
+      early skip of rewriting module: yaml.events [assertion]
+      early skip of rewriting module: yaml.nodes [assertion]
+      early skip of rewriting module: yaml.loader [assertion]
+      early skip of rewriting module: yaml.reader [assertion]
+      early skip of rewriting module: yaml.scanner [assertion]
+      early skip of rewriting module: yaml.parser [assertion]
+      early skip of rewriting module: yaml.composer [assertion]
+      early skip of rewriting module: yaml.constructor [assertion]
+      early skip of rewriting module: yaml.resolver [assertion]
+      early skip of rewriting module: yaml.dumper [assertion]
+      early skip of rewriting module: yaml.emitter [assertion]
+      early skip of rewriting module: yaml.serializer [assertion]
+      early skip of rewriting module: yaml.representer [assertion]
+      early skip of rewriting module: yaml.cyaml [assertion]
+      early skip of rewriting module: yaml._yaml [assertion]
+      early skip of rewriting module: yaml.yaml [assertion]
+      early skip of rewriting module: pydantic [assertion]
+      early skip of rewriting module: pydantic.dataclasses [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.class_validators [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.errors [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.typing [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: typing_extensions [assertion]
+      early skip of rewriting module: pydantic.utils [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.version [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.error_wrappers [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.json [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: pydantic.color [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: colorsys [assertion]
+      early skip of rewriting module: pydantic.types [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.validators [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.datetime_parse [assertion]
+      early skip of rewriting module: pydantic.fields [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.main [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.parse [assertion]
+      early skip of rewriting module: pydantic.schema [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.networks [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.annotated_types [assertion]
+      early skip of rewriting module: pydantic.decorator [assertion]
+      early skip of rewriting module: pydantic.env_settings [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pydantic.tools [assertion]
+      early skip of rewriting module: httprunner.builtin [assertion]
+      early skip of rewriting module: httprunner.builtin.comparators [assertion]
+      early skip of rewriting module: httprunner.builtin.functions [assertion]
+      early skip of rewriting module: httprunner.exceptions [assertion]
+      early skip of rewriting module: httprunner.utils [assertion]
+      early skip of rewriting module: httprunner.models [assertion]
+      early skip of rewriting module: dataclasses [assertion]
+      early skip of rewriting module: httprunner.runner [assertion]
+      early skip of rewriting module: allure [assertion]
+      early skip of rewriting module: httprunner.client [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.assets [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: unicodedata2 [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: http.cookies [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+      early skip of rewriting module: httprunner.ext.uploader [assertion]
+      early skip of rewriting module: filetype [assertion]
+      early skip of rewriting module: httprunner.response [assertion]
+      early skip of rewriting module: jmespath [assertion]
+      early skip of rewriting module: jmespath.parser [assertion]
+      early skip of rewriting module: jmespath.lexer [assertion]
+      early skip of rewriting module: jmespath.exceptions [assertion]
+      early skip of rewriting module: jmespath.compat [assertion]
+      early skip of rewriting module: jmespath.ast [assertion]
+      early skip of rewriting module: jmespath.visitor [assertion]
+      early skip of rewriting module: jmespath.functions [assertion]
+      early skip of rewriting module: httprunner.testcase [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __name__
+            obj: yuYueGuaHao.getSchedulePlanList_test
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __doc__
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __package__
+            obj: yuYueGuaHao
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __loader__
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x0000023090B98940>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __spec__
+            obj: ModuleSpec(name='yuYueGuaHao.getSchedulePlanList_test', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x0000023090B98940>, origin='G:\\pycharm\\projects\\huanQiu_apiTest\\testcases\\waiBuYiYuanDuiJie\\yuYueGuaHao\\getSchedulePlanList_test.py')
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __file__
+            obj: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\getSchedulePlanList_test.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __cached__
+            obj: G:\pycharm\projects\huanQiu_apiTest\testcases\waiBuYiYuanDuiJie\yuYueGuaHao\__pycache__\getSchedulePlanList_test.cpython-38.pyc
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __builtins__
+            obj: {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2021 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'G:\\pycharm\\projects\\venv\\lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: HttpRunner
+            obj: <class 'httprunner.runner.HttpRunner'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: Config
+            obj: <class 'httprunner.testcase.Config'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: Step
+            obj: <class 'httprunner.testcase.Step'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: RunRequest
+            obj: <class 'httprunner.testcase.RunRequest'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: RunTestCase
+            obj: <class 'httprunner.testcase.RunTestCase'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: TestCaseGetscheduleplanlist
+            obj: <class 'yuYueGuaHao.getSchedulePlanList_test.TestCaseGetscheduleplanlist'>
+        finish pytest_pycollect_makeitem --> <Class TestCaseGetscheduleplanlist> [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __repr__
+            obj: <slot wrapper '__repr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __getattribute__
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __setattr__
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __delattr__
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __init__
+            obj: <slot wrapper '__init__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __new__
+            obj: <built-in method __new__ of type object at 0x00007FFC379E8530>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __dir__
+            obj: <method '__dir__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __dict__
+            obj: <member '__dict__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __hash__
+            obj: <slot wrapper '__hash__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __str__
+            obj: <slot wrapper '__str__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __lt__
+            obj: <slot wrapper '__lt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __le__
+            obj: <slot wrapper '__le__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __eq__
+            obj: <slot wrapper '__eq__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __ne__
+            obj: <slot wrapper '__ne__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __gt__
+            obj: <slot wrapper '__gt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __ge__
+            obj: <slot wrapper '__ge__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __reduce_ex__
+            obj: <method '__reduce_ex__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __reduce__
+            obj: <method '__reduce__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __subclasshook__
+            obj: <method '__subclasshook__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __init_subclass__
+            obj: <method '__init_subclass__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __format__
+            obj: <method '__format__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __sizeof__
+            obj: <method '__sizeof__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py>
+            name: __class__
+            obj: <attribute '__class__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class TestCaseGetscheduleplanlist> [collection]
+      pytest_collectstart [hook]
+          collector: <Class TestCaseGetscheduleplanlist>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class TestCaseGetscheduleplanlist>
+      finish pytest_make_collect_report --> <CollectReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist' lenresult=1 outcome='passed'> [hook]
+    genitems <Instance ()> [collection]
+      pytest_collectstart [hook]
+          collector: <Instance ()>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Instance ()>
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__config
+            obj: name='挂号需先调通基础信息接口，获取医院科室、医生、号源等信息' verify=False base_url='${ENV(baseUrl_dongHua)}' variables={} parameters={} export=[] path='G:\\pycharm\\projects\\huanQiu_apiTest\\testcases\\waiBuYiYuanDuiJie\\yuYueGuaHao\\getSchedulePlanList_test.py' weight=1
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__teststeps
+            obj: [TStep(name='获取医院科室信息接口', request=TRequest(method=<MethodEnum.GET: 'GET'>, url='/organizationUnit/list', params={}, headers={}, req_json=None, data=None, cookies={}, timeout=120, allow_redirects=True, verify=False, upload={}), testcase=None, variables={}, setup_hooks=[], teardown_hooks=[], extract={'parentId': 'body.data[1].parentId'}, export=[], validators=[{'equal': ['body.responseCode', '0', '']}, {'equal': ['body.data[0].levelId', 4, '']}, {'equal': ['body.data[1].levelId', 5, '']}, {'equal': ['body.data[6].levelId', 6, '']}, {'equal': ['body.data[0].organizationUnitId', '$parentId', '']}], validate_script=[]), TStep(name='获取医院医生信息接口', request=TRequest(method=<MethodEnum.GET: 'GET'>, url='/provider/list', params={}, headers={}, req_json=None, data=None, cookies={}, timeout=120, allow_redirects=True, verify=False, upload={}), testcase=None, variables={}, setup_hooks=[], teardown_hooks=[], extract={}, export=[], validators=[{'equal': ['body.responseCode', '0', '']}], validate_script=[]), TStep(name='获取某天排班信息接口', request=TRequest(method=<MethodEnum.GET: 'GET'>, url='/schedulePlan/list/date/${getTomorrowDate()}', params={}, headers={}, req_json=None, data=None, cookies={}, timeout=120, allow_redirects=True, verify=False, upload={}), testcase=None, variables={}, setup_hooks=[], teardown_hooks=[], extract={}, export=[], validators=[{'equal': ['body.responseCode', '0', '']}], validate_script=[])]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __module__
+            obj: yuYueGuaHao.getSchedulePlanList_test
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: config
+            obj: <httprunner.testcase.Config object at 0x00000230917A5C70>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: teststeps
+            obj: [<httprunner.testcase.Step object at 0x0000023092733760>, <httprunner.testcase.Step object at 0x00000230917A5910>, <httprunner.testcase.Step object at 0x00000230917A56D0>]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __doc__
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __annotations__
+            obj: {'config': <class 'httprunner.testcase.Config'>, 'teststeps': typing.List[httprunner.testcase.Step], 'success': <class 'bool'>, '_HttpRunner__config': <class 'httprunner.models.TConfig'>, '_HttpRunner__teststeps': typing.List[httprunner.models.TStep], '_HttpRunner__project_meta': <class 'httprunner.models.ProjectMeta'>, '_HttpRunner__case_id': <class 'str'>, '_HttpRunner__export': typing.List[str], '_HttpRunner__step_datas': typing.List[httprunner.models.StepData], '_HttpRunner__session': <class 'httprunner.client.HttpSession'>, '_HttpRunner__session_variables': typing.Dict[str, typing.Any], '_HttpRunner__start_at': <class 'float'>, '_HttpRunner__duration': <class 'float'>, '_HttpRunner__log_path': <class 'str'>}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: success
+            obj: False
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__project_meta
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__case_id
+            obj: 
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__export
+            obj: []
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__step_datas
+            obj: []
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__session
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__session_variables
+            obj: {}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__start_at
+            obj: 0
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__duration
+            obj: 0
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__log_path
+            obj: 
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __init_tests__
+            obj: <function HttpRunner.__init_tests__ at 0x000002309273A5E0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: raw_testcase
+            obj: <property object at 0x00000230925FE5E0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: with_project_meta
+            obj: <function HttpRunner.with_project_meta at 0x00000230926FB040>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: with_session
+            obj: <function HttpRunner.with_session at 0x00000230926FB0D0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: with_case_id
+            obj: <function HttpRunner.with_case_id at 0x00000230926FB160>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: with_variables
+            obj: <function HttpRunner.with_variables at 0x00000230926FB1F0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: with_export
+            obj: <function HttpRunner.with_export at 0x00000230926FB280>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__call_hooks
+            obj: <function HttpRunner.__call_hooks at 0x00000230926FB310>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__run_step_request
+            obj: <function HttpRunner.__run_step_request at 0x00000230926FB3A0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__run_step_testcase
+            obj: <function HttpRunner.__run_step_testcase at 0x00000230926FB430>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__run_step
+            obj: <function HttpRunner.__run_step at 0x00000230926FB4C0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _HttpRunner__parse_config
+            obj: <function HttpRunner.__parse_config at 0x00000230926FB550>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: run_testcase
+            obj: <function HttpRunner.run_testcase at 0x00000230926FB5E0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: run_path
+            obj: <function HttpRunner.run_path at 0x00000230926FB670>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: run
+            obj: <function HttpRunner.run at 0x00000230926FB700>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: get_step_datas
+            obj: <function HttpRunner.get_step_datas at 0x00000230926FB790>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: get_export_variables
+            obj: <function HttpRunner.get_export_variables at 0x00000230926FB820>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: get_summary
+            obj: <function HttpRunner.get_summary at 0x00000230926FB8B0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: test_start
+            obj: <function HttpRunner.test_start at 0x00000230926FB940>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000023092742B20>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_start>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __dict__
+            obj: <attribute '__dict__' of 'HttpRunner' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __weakref__
+            obj: <attribute '__weakref__' of 'HttpRunner' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __repr__
+            obj: <slot wrapper '__repr__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __hash__
+            obj: <slot wrapper '__hash__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __str__
+            obj: <slot wrapper '__str__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __getattribute__
+            obj: <slot wrapper '__getattribute__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __setattr__
+            obj: <slot wrapper '__setattr__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __delattr__
+            obj: <slot wrapper '__delattr__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __lt__
+            obj: <slot wrapper '__lt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __le__
+            obj: <slot wrapper '__le__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __eq__
+            obj: <slot wrapper '__eq__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __ne__
+            obj: <slot wrapper '__ne__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __gt__
+            obj: <slot wrapper '__gt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __ge__
+            obj: <slot wrapper '__ge__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __init__
+            obj: <slot wrapper '__init__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __new__
+            obj: <built-in method __new__ of type object at 0x00007FFC379EAB50>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __reduce_ex__
+            obj: <method '__reduce_ex__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __reduce__
+            obj: <method '__reduce__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __subclasshook__
+            obj: <method '__subclasshook__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __init_subclass__
+            obj: <method '__init_subclass__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __format__
+            obj: <method '__format__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __sizeof__
+            obj: <method '__sizeof__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __dir__
+            obj: <method '__dir__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: __class__
+            obj: <attribute '__class__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_start> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_start>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x0000023090A53EE0>
+          items: [<Function test_start>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x0000023090A53EE0>
+            startdir: G:\pycharm\projects\huanQiu_apiTest
+            items: [<Function test_start>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<Function test_start>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session huanQiu_apiTest exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=1>
+      pytest_runtest_protocol [hook]
+          item: <Function test_start>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start
+            location: ('..\\venv\\lib\\site-packages\\httprunner\\runner.py', 423, 'TestCaseGetscheduleplanlist.test_start')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_start>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_start>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000023090A53EE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_start>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_start>
+          early skip of rewriting module: debugtalk [assertion]
+          early skip of rewriting module: debugtalk [assertion]
+          early skip of rewriting module: netrc [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_start>
+            call: <CallInfo when='call' result: []>
+        early skip of rewriting module: encodings.unicode_escape [assertion]
+        finish pytest_runtest_makereport --> <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000023090A53EE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_start>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_start>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000023090A53EE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: testcases/waiBuYiYuanDuiJie/yuYueGuaHao/getSchedulePlanList_test.py::TestCaseGetscheduleplanlist::test_start
+            location: ('..\\venv\\lib\\site-packages\\httprunner\\runner.py', 423, 'TestCaseGetscheduleplanlist.test_start')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session huanQiu_apiTest exitstatus=0 testsfailed=0 testscollected=1>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000002309175CC40>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x0000023090A53EE0>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x0000023090A53EE0>
+    finish pytest_unconfigure --> [] [hook]

@@ -1,0 +1,10 @@
+config:
+    name: "获取医院基础科室信息接口"
+    variables: {}
+    base_url: ${ENV(baseUrl_dongHua)}
+    verify: False
+teststeps:
+-   name: "获取医院科室信息接口"
+    request:
+        method: GET
+        url: /organizationUnit/list

@@ -1,0 +1,421 @@
+{
+    "config": {
+        "name": "testcase description",
+        "variables": {},
+        "verify": false
+    },
+    "teststeps": [
+        {
+            "name": "/hsb/wxfw/organizationUnit/list",
+            "request": {
+                "url": "http://47.92.67.113/hsb/wxfw/organizationUnit/list",
+                "method": "GET",
+                "headers": {
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "7e5cfec9-a9a7-4e60-a12b-085d15062553",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/wxfw/provider/list",
+            "request": {
+                "url": "http://47.92.67.113/hsb/wxfw/provider/list",
+                "method": "GET",
+                "headers": {
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "52379120-0ca7-4b6f-b025-ff0d54cde1da",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/cflz/medication/complex/getPharmacyList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/cflz/medication/complex/getPharmacyList",
+                "method": "POST",
+                "headers": {
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "804f033c-7e96-40a3-b19f-1607224d9f5f",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "0",
+                    "Connection": "keep-alive"
+                },
+                "data": ""
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/cflz/medication/complex/getMedicationList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/cflz/medication/complex/getMedicationList",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "text/plain",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "14679b9f-f26d-4436-acfd-337c85eb0e8c",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "44",
+                    "Connection": "keep-alive"
+                },
+                "data": "{\r\n\"sizePerPage\" : 1000,\r\n\"pageIndex\" : 1\r\n}"
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/cflz/medication/complex/getMedicationUnitList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/cflz/medication/complex/getMedicationUnitList",
+                "method": "POST",
+                "headers": {
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "b68ad20f-bd35-47ce-83b5-43b25b4c062d",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "0",
+                    "Connection": "keep-alive"
+                },
+                "data": ""
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/cflz/medication/complex/getMedicationRouteList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/cflz/medication/complex/getMedicationRouteList",
+                "method": "POST",
+                "headers": {
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "7765d95c-9d09-4619-b1ab-f1d6317b4c89",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "0",
+                    "Connection": "keep-alive"
+                },
+                "data": ""
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/cflz/medication/complex/getMedicationListByIdList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/cflz/medication/complex/getMedicationListByIdList",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "5e6f7d11-b85a-433e-8dd4-5ea6bca06c52",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "206",
+                    "Connection": "keep-alive"
+                },
+                "json": {
+                    "medicationList": [
+                        {
+                            "medicationId": "1",
+                            "pharmacyId": "3"
+                        },
+                        {
+                            "medicationId": "2",
+                            "pharmacyId": "3"
+                        }
+                    ]
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/cflz/medication/complex/getMedicationStockInfoByIdList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/cflz/medication/complex/getMedicationStockInfoByIdList",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "12974adf-a0ae-4646-bfc3-e94b217d91f4",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "206",
+                    "Connection": "keep-alive"
+                },
+                "json": {
+                    "medicationList": [
+                        {
+                            "medicationId": "1",
+                            "pharmacyId": "3"
+                        },
+                        {
+                            "medicationId": "2",
+                            "pharmacyId": "3"
+                        }
+                    ]
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/wxfw/procedure/complex/getProcedureList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/wxfw/procedure/complex/getProcedureList",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "text/plain",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "b91e3aea-6c6d-4cb2-83e3-c86f68df3f36",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "29",
+                    "Connection": "keep-alive"
+                },
+                "data": "{\r\n    \"procedureTypeId\":4\r\n}"
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        404
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/wxfw/procedure/complex/getProcedureListByIdList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/wxfw/procedure/complex/getProcedureListByIdList",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "text/plain",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "1c985892-9b70-45fb-9d05-f8f13cc7c5b7",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "153",
+                    "Connection": "keep-alive"
+                },
+                "data": "[\r\n    {\r\n        \"procedureId\":\"1111\",\r\n        \"procedureTypeId\":3\r\n    },\r\n    {\r\n        \"procedureId\":\"2222\",\r\n        \"procedureTypeId\":3\r\n    }\r\n]"
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        404
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/wxfw/diagnosis/complex/getDiagnosisList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/wxfw/diagnosis/complex/getDiagnosisList",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "e0838274-4f9a-4f2e-bcb9-7d92202a997e",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "50",
+                    "Connection": "keep-alive"
+                },
+                "json": {
+                    "sizePerPage": 1000,
+                    "pageIndex": 1
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        404
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/hsb/wxfw/procedure/complex/getProcedureUnitList",
+            "request": {
+                "url": "http://47.92.67.113/hsb/wxfw/procedure/complex/getProcedureUnitList",
+                "method": "POST",
+                "headers": {
+                    "Authorization": "Basic YWRtaW46bGZpZGJ3ZWU=",
+                    "User-Agent": "PostmanRuntime/7.28.4",
+                    "Accept": "*/*",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "4bce0425-731a-48f9-aa4b-680911340bec",
+                    "Host": "47.92.67.113",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Content-Length": "0",
+                    "Connection": "keep-alive"
+                },
+                "data": ""
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        404
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html"
+                    ]
+                }
+            ]
+        }
+    ]
+}
